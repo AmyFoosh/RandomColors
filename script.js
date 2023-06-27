@@ -15,9 +15,9 @@ body.addEventListener("contextmenu", (event) => {
 randomColorBtn.addEventListener("click", (event) => {
 
     // Pick random number for RGB.
-    let r = Math.floor(Math.random() * 255);
-    let g = Math.floor(Math.random() * 255);
-    let b = Math.floor(Math.random() * 255);
+    let r = Math.floor(Math.random() * 256);
+    let g = Math.floor(Math.random() * 256);
+    let b = Math.floor(Math.random() * 256);
 
     // Create RGB color.
     let rgb = `rgb(${r}, ${g}, ${b})`;
